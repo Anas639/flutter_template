@@ -1,0 +1,15 @@
+name: add todo
+method: POST
+url: http://localhost:4000/todos/add
+body:
+  content: |-
+    {
+      "title": "Make simple todo app",
+      "description": "I would like to make a simple todo app as a demo proejct for the flutter architecture tutorial"
+    }
+  content_type: application/json
+headers:
+- name: content-type
+  value: application/json
+- name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpc3N1ZXIiOiJsb2NhbGhvc3QiLCJpYXQiOjE3NDgyODY0OTR9.gYqD6pBF1H2IxiOeKqSow6jqpazbXbEqykm754x92JY

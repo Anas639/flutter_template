@@ -1,0 +1,5 @@
+name: list todos
+url: http://192.168.11.102:4000/todos
+headers:
+- name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpc3N1ZXIiOiJsb2NhbGhvc3QiLCJpYXQiOjE3NDgyODY0OTR9.gYqD6pBF1H2IxiOeKqSow6jqpazbXbEqykm754x92JY

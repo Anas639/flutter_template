@@ -1,0 +1,14 @@
+name: update todo
+method: PUT
+url: http://localhost:4000/todos/972ca73c1b5945ee9417bd25317cf61c
+body:
+  content: |-
+    {
+      "completed":true
+    }
+  content_type: application/json
+headers:
+- name: content-type
+  value: application/json
+- name: Authorization
+  value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpc3N1ZXIiOiJsb2NhbGhvc3QiLCJpYXQiOjE3NDgyODY0OTR9.gYqD6pBF1H2IxiOeKqSow6jqpazbXbEqykm754x92JY
